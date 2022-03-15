@@ -7,9 +7,9 @@ This project was built with:
 - parcel
 - css custom properties
 
-This project displays the latest Doctor Who news using a web scrubber.
+This project displays the latest Doctor Who news using a web scraper.
 
-This project was modeled after *[Ania Kubow's 'Build a Web Scraper'](https://www.youtube.com/watch?v=-3lqUHeZs_0)*
+This project was modeled after *[Ania Kubow's 'Build a Web Scraper'](https://www.youtube.com/watch?v=-3lqUHeZs_0)*.
 
 ## To start this project 
 
@@ -17,10 +17,11 @@ Frontend:
 
 `npm run dev`
 
-Go to (http://localhost:1234/)
+Open <http://localhost:1234/> to view it in the browser.
 
 Backend:
 
 `npm run start`
 
-Go to (http://localhost:8000/news)
+This starts the server at <http://localhost:8000>
+Open <http://localhost:8000/news> to view the response in the browser.
