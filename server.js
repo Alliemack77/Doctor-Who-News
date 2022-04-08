@@ -28,7 +28,7 @@ app.get('/news', (req, res) => {
                 articles.push({title, url, img})
             })
 
-            console.log(articles)
+            console.log(articles) 
             res.json(articles)
 
         }).catch(err => console.log(err))
