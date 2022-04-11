@@ -2,7 +2,7 @@
   "name": "web-scraper",
   "version": "1.0.0",
   "description": "web scraper",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
