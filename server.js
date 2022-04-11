@@ -10,7 +10,7 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-    res.json("This is my web scraper")
+    res.json("The Doctor Who News Web Scraper!")
 })
 
 app.get('/news', (req, res) => {
