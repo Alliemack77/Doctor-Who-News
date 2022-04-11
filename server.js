@@ -8,9 +8,8 @@ const url = "https://www.bbc.co.uk/blogs/doctorwho"
 
 const app = express()
 app.use(cors())
-
-app.use(express.static('client/dist'));
-// app.use('/static', express.static(path.join(`${__dirname}/client/dist`)));
+// app.use(express.static('client/dist'));
+app.use(express.static(path.join(`${__dirname}/client/dist`)));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(`${__dirname}/client/dist`))
