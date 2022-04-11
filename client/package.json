@@ -12,5 +12,6 @@
   "dependencies": {
     "axios": "^0.26.1",
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "proxy": "http://localhost:1234"
 }
