@@ -10,7 +10,7 @@ const options = {
 axios.request(options).then(response => {
 
     const data = response.data
-    console.log(response.data)
+    // console.log("From FE: ", response.data)
 
     data.forEach(article => {
         const articleItem = `

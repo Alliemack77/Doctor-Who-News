@@ -2236,8 +2236,8 @@ var options = {
 };
 
 _axios.default.request(options).then(function (response) {
-  var data = response.data;
-  console.log(response.data);
+  var data = response.data; // console.log("From FE: ", response.data)
+
   data.forEach(function (article) {
     var articleItem = "\n            <div class=\"article\">\n                <a href=".concat("https://www.bbc.co.uk".concat(article.url), ">\n                    <img src=", article.img ? article.img : "https://source.unsplash.com/random/320x213", "></img>\n                    <h3> ").concat(article.title, " </h3>\n                </a>\n            </div>");
     feedDisplay.insertAdjacentHTML('beforeend', articleItem);
@@ -2273,7 +2273,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55881" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56320" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
