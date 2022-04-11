@@ -23,6 +23,10 @@ Backend:
 
 `npm run start`
 
-This starts the server at <http://localhost:8000>
+This starts the server at <http://localhost:5000>
 
-Open <http://localhost:8000/news> to view the response in the browser.
+Open <http://localhost:5000/news> to view the response in the browser.
+
+## View this project live
+
+<https://dr-who-web-scraper.herokuapp.com/>
