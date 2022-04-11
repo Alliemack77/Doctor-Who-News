@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Allison Leggett",
   "license": "ISC",

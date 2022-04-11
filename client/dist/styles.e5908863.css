@@ -1,0 +1,2 @@
+body{box-sizing:border-box;margin:1rem 2rem;display:flex;flex-direction:column}img{width:100%;display:block}a{text-decoration:none}h3{color:#292145}#feed{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}.article{border:2px solid #292145;max-width:300px;padding:1rem;display:grid;place-content:center}.article h3{width:300px}
+/*# sourceMappingURL=/styles.e5908863.css.map */
