@@ -2,15 +2,18 @@ const express = require('express')
 const axios = require('axios')
 const cheerio = require('cheerio')
 const cors = require('cors')
+const path = require('path')
 const PORT = process.env.PORT || 5000
 const url = "https://www.bbc.co.uk/blogs/doctorwho"
 
 const app = express()
 app.use(cors())
 
+// app.use(express.static('client/dist'));
+app.use('/static', express.static(path.join(`${__dirname}/client/dist`)));
 
 app.get('/', (req, res) => {
-    res.json("The Doctor Who News Web Scraper!")
+    res.sendFile(path.join(`${__dirname}/client/dist`))
 })
 
 app.get('/news', (req, res) => {
